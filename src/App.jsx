@@ -1,9 +1,11 @@
 // import Counter from "./Practice/Counter";
 // import CounterReducer from "./Practice/CounterReducer";
-import ShopingCart from "./Practice/ShopingCart";
+// import ShopingCart from "./Practice/ShopingCart";
 // import DebouncedSearch from "./Practice/DebouncedSearch";
 // import SearchFilter from "./Practice/SearchFilter";
 // import TodoAPP from "./Practice/TodoApp";
+
+import ReactDebounced from "./Practice/ReactDebouncing";
 
 
 function App() {
@@ -20,7 +22,9 @@ function App() {
       {/* <CounterReducer/> */}
 
 
-      <ShopingCart/>
+      {/* <ShopingCart/> */}
+
+      <ReactDebounced/>
 
     </div>
   );
