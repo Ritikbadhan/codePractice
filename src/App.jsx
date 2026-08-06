@@ -5,7 +5,9 @@
 // import SearchFilter from "./Practice/SearchFilter";
 // import TodoAPP from "./Practice/TodoApp";
 
-import ReactDebounced from "./Practice/ReactDebouncing";
+import Accordian from "./Practice/Accordian";
+
+// import ReactDebounced from "./Practice/ReactDebouncing";
 
 
 function App() {
@@ -24,7 +26,9 @@ function App() {
 
       {/* <ShopingCart/> */}
 
-      <ReactDebounced/>
+      {/* <ReactDebounced/> */}
+
+      <Accordian></Accordian>
 
     </div>
   );
