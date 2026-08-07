@@ -4,6 +4,7 @@
 // import SearchFilter from "./Practice/SearchFilter";
 // import TodoAPP from "./Practice/TodoApp";
 
+import PaginationTable from "./Practice/PaginationTable";
 import ShopingCart from "./Practice/ShopingCart/ShopingCart";
 
 // import Accordian from "./Practice/Accordian";
@@ -25,11 +26,12 @@ function App() {
       {/* <CounterReducer/> */}
 
 
-      <ShopingCart/>
+      {/* <ShopingCart/> */}
 
       {/* <ReactDebounced/> */}
 
       {/* <Accordian></Accordian> */}
+      <PaginationTable/>
 
     </div>
   );
