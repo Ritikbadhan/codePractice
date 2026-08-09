@@ -1,11 +1,14 @@
+
 // import Counter from "./Practice/Counter";
 // import CounterReducer from "./Practice/CounterReducer";
 // import DebouncedSearch from "./Practice/DebouncedSearch";
 // import SearchFilter from "./Practice/SearchFilter";
 // import TodoAPP from "./Practice/TodoApp";
 
-import PaginationTable from "./Practice/PaginationTable";
-import ShopingCart from "./Practice/ShopingCart/ShopingCart";
+import { CounterProvider } from "./Practice/ContextAPI/CounterContext";
+// import CounterWithContextAPI from "./Practice/CounterWithContextAPI";
+// import PaginationTable from "./Practice/PaginationTable";
+// import ShopingCart from "./Practice/ShopingCart/ShopingCart";
 
 // import Accordian from "./Practice/Accordian";
 
@@ -14,26 +17,29 @@ import ShopingCart from "./Practice/ShopingCart/ShopingCart";
 
 function App() {
   return (
-    <div className="container">
-      <h1 className="text-danger">Practice app</h1>
-      {/* <Counter/> */}
-      {/* <TodoAPP/> */}
-      
-      {/* <SearchFilter/> */}
+    <CounterProvider>
+      <div className="container">
+        <h1 className="text-3xl font-bold underline ">Practice app</h1>
+        {/* <Counter/> */}
+        {/* <TodoAPP/> */}
 
-      {/* <DebouncedSearch/> */}
+        {/* <SearchFilter/> */}
 
-      {/* <CounterReducer/> */}
+        {/* <DebouncedSearch/> */}
+
+        {/* <CounterReducer/> */}
 
 
-      {/* <ShopingCart/> */}
+        {/* <ShopingCart/> */}
 
-      {/* <ReactDebounced/> */}
+        {/* <ReactDebounced/> */}
 
-      {/* <Accordian></Accordian> */}
-      <PaginationTable/>
+        {/* <Accordian></Accordian> */}
+        {/* <PaginationTable /> */}
+        {/* <CounterWithContextAPI/> */}
 
-    </div>
+      </div>
+     </CounterProvider>
   );
 }
 
