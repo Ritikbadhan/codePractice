@@ -6,7 +6,8 @@
 // import TodoAPP from "./Practice/TodoApp";
 
 import { CounterProvider } from "./Practice/ContextAPI/CounterContext";
-import ReduxCounter from "./Practice/ReduxCounter";
+import InfiniteScroll from "./Practice/InfiniteScroll";
+// import ReduxCounter from "./Practice/ReduxCounter";
 // import CounterWithContextAPI from "./Practice/CounterWithContextAPI";
 // import PaginationTable from "./Practice/PaginationTable";
 // import ShopingCart from "./Practice/ShopingCart/ShopingCart";
@@ -38,7 +39,8 @@ function App() {
         {/* <Accordian></Accordian> */}
         {/* <PaginationTable /> */}
         {/* <CounterWithContextAPI/> */}
-        <ReduxCounter/>
+        {/* <ReduxCounter/> */}
+        <InfiniteScroll/>
 
       </div>
      </CounterProvider>
