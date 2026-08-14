@@ -8,7 +8,7 @@
 import ContactFormWithUseState from "./Practice/ContactForm";
 import { CounterProvider } from "./Practice/ContextAPI/CounterContext";
 // import ReduxCounter from "./Practice/ReduxCounter";
-import InfiniteScroll from "./Practice/InfiniteScroll";
+// import InfiniteScroll from "./Practice/InfiniteScroll";
 // import ReduxCounter from "./Practice/ReduxCounter";
 // import CounterWithContextAPI from "./Practice/CounterWithContextAPI";
 // import PaginationTable from "./Practice/PaginationTable";
@@ -41,8 +41,9 @@ function App() {
         {/* <Accordian></Accordian> */}
         {/* <PaginationTable /> */}
         {/* <CounterWithContextAPI/> */}
-        <ReduxCounter/>
+        {/* <ReduxCounter/> */}
 
+        <ContactFormWithUseState />
       </div>
     </CounterProvider>
   );
